@@ -46,6 +46,9 @@
       "options": {
         "cwd": "apps/jobber-auth"
       }
+    },
+    "test": {
+      "dependsOn": ["generate-types"]
     }
   }
 }
